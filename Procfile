@@ -1,1 +1,1 @@
-npm install && node . --server
+worker: npm install && node . --server
