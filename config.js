@@ -379,7 +379,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
 global.stickpack = ''
-global.stickauth = `• 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗯𝘆:Ade Putri Ananda\n• 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆:6283152615606 (Malix Tamfan)\n• 𝗣𝗮𝗰𝗸𝗻𝗮𝗺𝗲 𝗯𝘆:@cowok_kul_\n• 𝗔𝘂𝘁𝗵𝗼𝗿 𝗯𝘆:©Malix Indomie`
+global.stickauth = `• 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗯𝘆:Ade Putri Ananda\n• 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆:6283152615606 [Malix]\n• 𝗣𝗮𝗰𝗸𝗻𝗮𝗺𝗲 𝗯𝘆:@cowok_kul_\n• 𝗔𝘂𝘁𝗵𝗼𝗿 𝗯𝘆:©Malix Indomie`
 
 global.multiplier = 38 // The higher, The harder levelup
 
