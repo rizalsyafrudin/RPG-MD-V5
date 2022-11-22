@@ -109,7 +109,7 @@ global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: $
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `Malix_project | ʙʏ ${global.nameown}`
 global.author = '' 
-global.packname = '
+global.packname ='Apa persamaan kamu sama ban?|sama sama ireng :V'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'Maret 26 2022'
 
