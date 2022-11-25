@@ -52,7 +52,7 @@ const listMessage = {
   text: `│›Please select your age at the bottom button...`,
   footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\nby:Malix_project`,
   title: "▢━━━━「 Registration 」━━━━▢",
-  buttonText: "DAFTAR!",
+  buttonText: "ഒ Register ഒ!",
   sections
 }
 
