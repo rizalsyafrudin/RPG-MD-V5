@@ -50,9 +50,9 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\nby:Malix_project`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
   title: "▢━━━━「 Registration 」━━━━▢",
-  buttonText: "ഒ Register ഒ!",
+  buttonText: "ഒ Register ഒ",
   sections
 }
 
@@ -81,10 +81,10 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-Follow instagram:@cowok_kul_ 
+ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ King Of Bear ×፝֟͜×
 `
   let buttonMessage= {
-'document':{'url':'https://youtu.be/DCfk7tc_KqE'},
+'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,18 +93,18 @@ Follow instagram:@cowok_kul_
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':https://youtu.be/DCfk7tc_KqE'',
+'mediaUrl':'https://youtu.be/pwLZpdfO8AU',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/7bdd34ef6ebe19af0cb88.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/DCfk7tc_KqE'}},
+'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
+'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'MENU'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'HALO COEG'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
+{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
