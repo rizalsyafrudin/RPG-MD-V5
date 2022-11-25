@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
 let info = `
 *${htki} CHEAT ${htka}*
 
-Anjay nge cheat awkwk:v
+wwowkwk ngecheat coeg
 `
 const sections = [
    {
