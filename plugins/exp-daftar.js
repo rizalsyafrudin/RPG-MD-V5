@@ -81,7 +81,7 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-Follow instagram:@cowok_kul_
+Follow ig:@cowok_kul_
 `
   let buttonMessage= {
 'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
@@ -98,7 +98,7 @@ Follow instagram:@cowok_kul_
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/7bdd34ef6ebe19af0cb88.jpg')).buffer(),
 'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
 'caption':cap,
 'footer':botdate,
