@@ -22,7 +22,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     }
     }
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-    let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+    let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/7bdd34ef6ebe19af0cb88.jpg")
 	conn.p[id] = [
 	await conn.sendContact(m.chat, kontak2, ftroli, { contextInfo: { externalAdReply :{ 
      showAdAttribution: true, 
@@ -39,9 +39,9 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^` 
   let buttonMessage= {
-'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'document':{'url':'https://youtu.be/DCfk7tc_KqE'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 Malix_Project 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
@@ -52,7 +52,7 @@ let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan di
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+'body':`⚘ by Malix_project`,
 'thumbnail': await(await fetch(thumb)).buffer(),
 'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
 'caption':cap,
