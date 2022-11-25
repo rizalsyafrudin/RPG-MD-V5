@@ -5,7 +5,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 
     if (new Date - global.db.data.users[m.sender].lastgift > 86400000) {
        conn.reply(m.chat, '*🎉 SELAMAT!*\nKamu telah mendapatkan\n1000 XP ✨\n 1 Limit! 🎫\n1000 Money 💹\n1 Potion 🥤', m)
-    global.db.data.users[m.sender].exp += 1000
+    global.db.data.users[m.sender].exp += 2000000
     global.db.data.users[m.sender].limit += 1
     global.db.data.users[m.sender].money +=1000
     global.db.data.users[m.sender].potion += 1
