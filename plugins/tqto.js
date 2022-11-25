@@ -13,14 +13,15 @@ let cap = `*BIG THANKS TO*
     
 Terutama Terimakasih Teruntuk:
 ➸ @${'6288279268363'.split('@')[0]}
-
+➸ @${'6283152615606'.split('@')[0]}
 Terimakasih Juga Untuk Kang Banned:
 ➸ 0@s.whatsapp.net
 
 ─────────────────────
 • God
 • My ortu
-• King Of Bear ( Me )
+• King Of Bear (creator bot)
+• Malix (owner bot)
 • Nurutomo
 • Adiwajshing
 • Ariffb
@@ -57,29 +58,29 @@ Terimakasih Juga Untuk Kang Banned:
 • Orang-orang yang Berdonasi
 ─────────────────────`
   let buttonMessage= {
-'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'document':{'url':'https://youtu.be/DCfk7tc_KqE'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 Malix_project 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://youtu.be/DCfk7tc_KqE',
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
+'body':`⚘ by Malix_project`,
+'thumbnail':await(await fetch('https://telegra.ph/file/7bdd34ef6ebe19af0cb88.jpg')).buffer(),
 'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
 ${botdate}`,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'MENU'},'type':1},
+{'buttonId':'.salken','buttonText':{'displayText':'HALO COEG'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
