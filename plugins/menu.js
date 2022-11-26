@@ -207,7 +207,7 @@ contextInfo: { externalAdReply :{ showAdAttribution: true,
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
-  let vn = `./mp3/insecure.opus`
+  let vn = `./mp3/Melting.opus`
   conn.sendFile(m.chat, vn, 'Fangz.Ganz', null, m, true, {
 type: 'audioMessage',
 ptt: true })
