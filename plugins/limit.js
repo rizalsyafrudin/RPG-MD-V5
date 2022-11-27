@@ -9,8 +9,3 @@ handler.help = ['limit [@user]']
 handler.tags = ['xp']
 handler.command = /^(limit)$/i
 export default handler 
-
-let vn = `./mp3/Melting.opus`
-  conn.sendFile(m.chat, vn, 'Fangz.Ganz', null, m, true, {
-type: 'audioMessage',
-ptt: true })
