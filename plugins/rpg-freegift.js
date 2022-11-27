@@ -4,7 +4,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
     if (args[0] == 'fangzbot_091' || args[0] == 'Malix Ganteng' || args[0] == 'BloowwXx' || args[0] == 'BbL016JJQBCSr54OwwW0' || args[0] == 'MalixGamteng120' || args[0] == 'kode013923') {
 
     if (new Date - global.db.data.users[m.sender].lastgift > 86400000) {
-       conn.reply(m.chat, '*🎉 SELAMAT!*\nKamu telah mendapatkan\n5000000 XP \n 100 Limit! \n100000000 Money \n1 Potion  \n100 Gold \n 1000000 Atm \n50 Legendary \n1 Robo \n2 Petfood', m)
+       conn.reply(m.chat, '*🎉SELAMAT*\nKamu telah mendapatkan\n5000000 XP✨\n100 Limit 🎫\n100000000 Money 💹\n1 Potion  🥤\n100 Gold 🪙\n1000000 Atm 💳 \n50 Legendary 🗃️', m)
     global.db.data.users[m.sender].exp += 5000000
     global.db.data.users[m.sender].limit += 100
     global.db.data.users[m.sender].money +=10000000
